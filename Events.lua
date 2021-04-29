@@ -368,7 +368,10 @@ function main()
 	 end)
      imgui.Process = false
 
+	 
+	
 	if bNotf then
+	  notf.addNotification(("Женя помогает."), 9, 2)
 	imgui.ShowCursor = false
     notf.addNotification(("Идет проверка сервера."), 5, 2)
 	wait(1000)
